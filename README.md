@@ -5,6 +5,10 @@
 
 This script allows you export your playlists and liked songs to your subsonic based servers (eg. Airsonic or Funkwhale). The songs already need to be present at the server.
 
+### Prerequirement
+
+This script requires [py-sonic](https://github.com/crustymonkey/py-sonic). The easiest way to install it is with `pip3 install py-sonic`
+
 #### Usage
 
 To use it, first you must modify the server url and credential variables at the top of the script. Then you call the script with python3:
