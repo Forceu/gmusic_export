@@ -1,6 +1,5 @@
 import libsonic, os, csv, html, argparse, sys
 from shutil import copyfile
-from pprint import pprint
 
 #####CHANGE ME######
 URL      = 'https://your.server.url'
