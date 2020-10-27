@@ -8,6 +8,11 @@ USERNAME = 'youruser' # case sensitive!
 PASSWORD = 'yourpassword' # might be different to your regular password
 ####################
 
+if (URL == 'https://your.server.url'):
+  print ("You need to change your server credentials first. Please open this script in an editor.")
+  sys.exit()
+  
+
 
 example_text = '''Example:
 
