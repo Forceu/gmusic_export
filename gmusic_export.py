@@ -55,7 +55,7 @@ def get_song_id(connection, title, artist, album):
 def star_song(connection, title, artist, album):
   songid = get_song_id(connection, title, artist, album)
   if (songid!=-1):
-    starresult = conn.star(sids=[song['id']])
+    starresult = conn.star(sids=[songid])
     if ("status" in starresult and starresult["status"]=="ok"):
       return True
   return False
